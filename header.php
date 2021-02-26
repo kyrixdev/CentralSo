@@ -15,13 +15,16 @@
     <?php 
             $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
             if ( strpos($url, 'dedicated.php') !== false ) {
-                echo('Dedicated Servers - CentralSo');
+                echo('Premium Dedicated Servers - CentralSo');
             }
             elseif ( strpos($url, 'index.php') !== false ) {
                 echo('Central Server Solutions - Home');
             }
             elseif ( strpos($url, 'vps.php') !== false ) {
                 echo('Virtual Private Servers - CentralSo');
+            }
+            elseif ( strpos($url, 'windows-servers.php') !== false ) {
+                echo('Windows RDP Servers - CentralSo');
             }
             elseif ( strpos($url, 'about-us.php') !== false ) {
                 echo('About Us - CentralSo');
@@ -41,10 +44,10 @@
 </head>
 
 <body>
-<header id="mobile-hide" class="header-screen text-gray-900 body-font" data-aos="fade-down" data-aos-duration="900">
+<header id="mobile-hide" class="header-screen text-white body-font" data-aos="fade-down" data-aos-duration="900">
     <div id="navbar" class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a class="flex title-font font-medium items-center mb-4 md:mb-0" href="#head">
-                    <img class="logo w-40 mr-24" src="https://i.imgur.com/2a76LeN.png" alt="">
+                <a class="flex title-font font-medium items-center mb-4 md:mb-0" href="index.php">
+                    <img class="logo w-52 mr-24" src="img/side_white.png" alt="">
                 </a>
                 <div class="flex flex-col ml-auto hidden lg:block text-right">
                     <nav class="ml-auto md:ml-autotext-base mb-2">
@@ -53,10 +56,10 @@
                         <a class="text-sm" href="/order/">Support</a>
                     </nav>
                     <nav class=" md:ml-auto flex flex-wrap items-center text-base">
-                        <a class="nav-link mr-8" href="/index.html">Home</a>
+                        <a class="nav-link mr-8" href="index.php">Home</a>
                         <a class="nav-link mr-8 active" href="/about/">About</a>
                         <a class="nav-link mr-8" href="/order/">Order</a>
-                        <a class="nav-link mr-8" href="/index.html#services">Services</a>
+                        <a class="nav-link mr-8" href="#services">Services</a>
                         <a class="btn-login border-0 focus:outline-none rounded-full text-base" href="https://status.central.so/">ClientArea</a>
                     </nav>
                 </div>

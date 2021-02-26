@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Rubik', sans-serif;
+    background: #23272A;
 }
 html{
     font-family: 'Rubik', sans-serif;
@@ -70,13 +71,22 @@ html{
     vertical-align: super;
     color: #ff4f5a;
 }
+.red-fa{
+    color: #ff4f5a;
+}
 .white-quote{
     font-size: large;
     vertical-align: super;
 }
 .service-card{
     box-shadow: 4px 4px 10px 0px #0000001c;
-    border: 1px solid #e4e4e4;
+    background: #404345;
+}
+.service-card:hover{
+    border: 1px solid #ff0000;
+}
+.box-sh{
+    box-shadow: 4px 4px 10px 0px #0000001c;
 }
 .col-start-1{
     margin-bottom: 3rem;
@@ -178,6 +188,45 @@ footer .heading {
     display: none;
   }
   
-  .tab-content.active {
+.tab-content.active {
     display: block;
-  }
+}
+.bg-grey{
+    background: #404345;
+}
+
+/* Dedicated Page*/
+.feat-detail{
+    text-align: center;
+    max-width: 265px;
+    margin: auto;
+    padding-bottom: 25px;
+    margin-bottom: 19px;
+    position: relative;
+}
+.feat-detail:before{
+        content: "";
+        width: 70px;
+        height: 1px;
+        background-color: #f87171;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+}
+.feat-icon{
+        display: inline-block;
+        padding: 0 0;
+        line-height: 100px;
+}
+.feat-detail h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+.feat-detail p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+}

@@ -6,7 +6,7 @@ include('header.php')
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 lg:items-center text-center">
                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                    <i class="fas fa-quote-left red-quote"></i> Virtual Private Servers <i class="fas fa-quote-right red-quote"></i>
+                    <i class="fas fa-quote-left red-quote"></i> Windows RDP Servers <i class="fas fa-quote-right red-quote"></i>
                     </h1>
                     <p class="mb-8 text-center text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</p>
                     <div class="flex justify-center">
