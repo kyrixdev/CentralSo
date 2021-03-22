@@ -49,7 +49,7 @@ include('header.php')
                     </div>
                 </div>
             </a>
-            <a href="/order.php">
+            <a href="dedicated-servers.php">
                 <div class="col-start-1 lg:col-start-3">
                     <div class="service-card bg-white rounded-xl mx-auto">
                         <div class="mx-auto p-5">
