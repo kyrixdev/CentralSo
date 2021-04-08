@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Rubik', sans-serif;
-    background: #23272A;
+    background: #fff;
 }
 html{
     font-family: 'Rubik', sans-serif;
@@ -27,11 +27,15 @@ html{
 /*Header*/
 .nav-link{
     font-weight: 500;
+    color: #111827;
 }
 .nav-link:hover{
     color: red;
     border-bottom: 1.5px solid;
     border-color: red;
+}
+.end-nav{
+    color: #111827;
 }
 #btn-style-1 {
     background-color: #DE0021;
@@ -80,7 +84,7 @@ html{
 }
 .service-card{
     box-shadow: 4px 4px 10px 0px #0000001c;
-    background: #404345;
+    background: #fff;
 }
 .service-card:hover{
     border: 1px solid #ff0000;
@@ -180,6 +184,9 @@ footer .heading {
     .btn-d{
         float:initial;
     }
+    .map{
+        display: none;
+    }
 }
 
 
@@ -222,10 +229,10 @@ footer .heading {
 .feat-detail h3 {
     font-size: 22px;
     font-weight: 500;
-    color: #fff;
+    color: #000;
 }
 .feat-detail p {
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-weight: 300;
     margin-top: 15px;

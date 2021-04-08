@@ -47,9 +47,9 @@
 <header id="mobile-hide" class="header-screen text-white body-font" data-aos="fade-down" data-aos-duration="900">
     <div id="navbar" class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a class="flex title-font font-medium items-center mb-4 md:mb-0" href="index.php">
-                    <img class="logo w-52 mr-24" src="img/side_white.png" alt="">
+                    <img class="logo w-52 mr-24" src="img/Size_2_black_text.png" alt="">
                 </a>
-                <div class="flex flex-col ml-auto hidden lg:block text-right">
+                <div class="flex flex-col ml-auto hidden lg:block text-right end-nav">
                     <nav class="ml-auto md:ml-autotext-base mb-2">
                         <a class="text-sm mr-5" href="/index.html"><span class="spinner-grow"></span>Status</a>
                         <a class="text-sm mr-5 active" href="/about/">VPS Panel</a>

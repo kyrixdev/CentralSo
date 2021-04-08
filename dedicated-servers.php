@@ -5,10 +5,10 @@ include('header.php')
 <section id="hero-text" class="text-gray-700 body-font" data-aos="fade-up" data-aos-duration="900">
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 lg:items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                     <i class="fas fa-quote-left red-quote"></i> Premium Dedicated Servers <i class="fas fa-quote-right red-quote"></i>
                     </h1>
-                    <p class="mb-8 text-center text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</p>
+                    <p class="mb-8 text-center text-gray-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</p>
                     <div class="flex justify-center">
                         <a href="#prices" id="btn-style-1" class="inline-flex items-center border-0 py-2 px-4 lg:px-12 focus:outline-none rounded-lg text-base mt-4 mr-4 md:mt-0">Check Offers</a>
                     </div>
@@ -19,13 +19,13 @@ include('header.php')
             </div>
 </section>
 <section id="servers">
-<h1 class="text-3xl text-center font-semibold text-white"><span class="border-b-2 border-red-400">Our Servers</span></h1>
+<h1 class="text-3xl text-center font-semibold text-gray-900"><span class="border-b-2 border-red-400">Our Servers</span></h1>
 <div class="container mx-auto flex flex-col mt-10 w-3/4">
   <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
     <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
       <div class="shadow overflow-hidden border-b border-gray-500 sm:rounded-lg">
         <table class="min-w-full divide-y divide-gray-500">
-          <thead class="bg-black">
+          <thead class="bg-white">
             <tr>
               <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-red-500 uppercase tracking-wider">
                 Server
@@ -47,7 +47,7 @@ include('header.php')
               </th>
             </tr>
           </thead>
-          <tbody class="bg-grey divide-y divide-gray-200">
+          <tbody class="bg-white divide-y divide-gray-500">
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">
                 <div class="flex items-center">
@@ -55,7 +55,7 @@ include('header.php')
                     <img class="h-10 w-10" src="https://www.intel.com/content/dam/products/hero/foreground/processor-badge-xeon-1x1.png.rendition.intel.web.550.550.png" alt="">
                   </div>
                   <div class="ml-4">
-                    <div class="text-sm font-medium text-white">
+                    <div class="text-sm font-medium text-gray-900">
                         Xeon E3-1290v2
                     </div>
                     <div class="text-sm text-gray-300">
@@ -65,15 +65,15 @@ include('header.php')
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm font-medium text-white">32GB DDR4</div>
+                <div class="text-sm font-medium text-gray-900">32GB DDR4</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm font-medium text-white">250GB SSD</div>
+                <div class="text-sm font-medium text-gray-900">250GB SSD</div>
               </td>
-              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-white">
+              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-gray-900">
                 1 TB
               </td>
-              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-white">
+              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-gray-900">
                 $5/mo
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -88,7 +88,7 @@ include('header.php')
                     <img class="h-10 w-10" src="https://www.intel.com/content/dam/products/hero/foreground/processor-badge-xeon-1x1.png.rendition.intel.web.550.550.png" alt="">
                   </div>
                   <div class="ml-4">
-                    <div class="text-sm font-medium text-white">
+                    <div class="text-sm font-medium text-gray-900">
                         Xeon E3-1290v2
                     </div>
                     <div class="text-sm text-gray-300">
@@ -98,15 +98,15 @@ include('header.php')
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm font-medium text-white">32GB DDR4</div>
+                <div class="text-sm font-medium text-gray-900">32GB DDR4</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm font-medium text-white">250GB SSD</div>
+                <div class="text-sm font-medium text-gray-900">250GB SSD</div>
               </td>
-              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-white">
+              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-gray-900">
                 1 TB
               </td>
-              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-white">
+              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-gray-900">
                 $5/mo
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -121,7 +121,7 @@ include('header.php')
                     <img class="h-10 w-10" src="https://www.intel.com/content/dam/products/hero/foreground/processor-badge-xeon-1x1.png.rendition.intel.web.550.550.png" alt="">
                   </div>
                   <div class="ml-4">
-                    <div class="text-sm font-medium text-white">
+                    <div class="text-sm font-medium text-gray-900">
                         Xeon E3-1290v2
                     </div>
                     <div class="text-sm text-gray-300">
@@ -131,15 +131,15 @@ include('header.php')
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm font-medium text-white">32GB DDR4</div>
+                <div class="text-sm font-medium text-gray-900">32GB DDR4</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm font-medium text-white">250GB SSD</div>
+                <div class="text-sm font-medium text-gray-900">250GB SSD</div>
               </td>
-              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-white">
+              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-gray-900">
                 1 TB
               </td>
-              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-white">
+              <td class="px-6 py-4 font-medium whitespace-nowrap text-sm text-gray-900">
                 $5/mo
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -156,8 +156,8 @@ include('header.php')
 </div>
 </section>
 
-<section id="features" data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate text-white mt-12">
-      <h1 class="text-3xl text-center font-semibold text-white"><span class="border-b-2 border-red-400">Our Features</span></h1>
+<section id="features" data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate text-gray-900 mt-12">
+      <h1 class="text-3xl text-center font-semibold text-gray-900"><span class="border-b-2 border-red-400">Our Features</span></h1>
       <div class="container mx-auto mt-5">
         <div class="flex flex-wrap overflow-hidden xl:-mx-5">
 
@@ -237,10 +237,10 @@ include('header.php')
       </div>
 </section>
 
-<section class="text-white" id="locations">
+<section class="text-gray-900" id="locations">
   <div class="container mx-auto">
-  <h1 class="text-3xl text-center font-semibold text-white"><span class="border-b-2 border-red-400">Locations</span></h1>
-  <p class="text-lg text-center font-normal text-white">More will be added soon</p>
+  <h1 class="text-3xl text-center font-semibold text-gray-900"><span class="border-b-2 border-red-400">Locations</span></h1>
+  <p class="text-lg text-center font-normal text-gray-900">More will be added soon</p>
   <div class="flex flex-wrap overflow-hidden xl:-mx-4">
 
     <div class="w-full overflow-hidden xl:my-4 xl:px-4 xl:w-1/2 text-right">
